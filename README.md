@@ -1,10 +1,18 @@
 # Hulu Clone
 
 > Hulu is an American subscription video on demand service fully controlled and majority-owned by The Walt Disney Company, with Comcast as an equity stakeholder.
+> Styled using flexbox & tailwind css
+> REST API used is Tmdb & Vercel for hosting the next js application.
 
 ## Stock
 
 [logo](https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png?fit=1280%2C680)
+
+## Setup Tailwind for the project.
+
+> A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+
+`npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
