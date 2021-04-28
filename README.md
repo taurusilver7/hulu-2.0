@@ -17,8 +17,12 @@
 - Add the lastest **jit** (just in time) compiler for the tailwind css.
 
 - Create the configuration file for tailwindcss in the project.
+
   > generate your tailwind.config.js and postcss.config.js files:
+
   - `npx tailwindcss init -p`
+
+- Create a CSS file if you don't already have one, and use the @tailwind directive to inject tailwind's base, components, and utilities styles.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
