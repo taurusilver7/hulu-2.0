@@ -24,6 +24,8 @@
 
 - Create a CSS file if you don't already have one, and use the @tailwind directive to inject tailwind's base, components, and utilities styles.
 
+- While adding images from other domains to the application, the next.js should always be informed beforehand to use the resources of a particular domain. Create a `next.config.js` to create an array for the permitted domains to use resources.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
