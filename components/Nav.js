@@ -1,8 +1,8 @@
 const Nav = () => {
     return (
-        <div>
+        <nav>
             
-        </div>
+        </nav>
     )
 }
 
