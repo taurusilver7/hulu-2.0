@@ -31,7 +31,8 @@
 
 - lazy loading should be adapted as standard but default img html element to save network usage for unseen image elements at the bottom of the page.
 
-- for the global styles in the application, add the style to the directive `base` with **@apply** method.
+- for the global styles in the application, add the style to the directive `base` with **@layer & @apply** method.
+- install [heroicons package](https://github.com/tailwindlabs/heroicons) to use the icons & svg element.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
