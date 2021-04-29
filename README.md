@@ -29,6 +29,10 @@
 
 - While adding images from other domains to the application, the next.js should always be informed beforehand to use the resources of a particular domain. Create a `next.config.js` to create an array for the permitted domains to use resources.
 
+- lazy loading should be adapted as standard but default img html element to save network usage for unseen image elements at the bottom of the page.
+
+- for the global styles in the application, add the style to the directive `base` with **@apply** method.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
