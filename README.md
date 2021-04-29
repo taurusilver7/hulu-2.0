@@ -25,7 +25,7 @@
 
 - Create a CSS file if you don't already have one, and use the @tailwind directive to inject tailwind's base, components, and utilities styles.
 
-###
+### Header & Navbar
 
 - While adding images from other domains to the application, the next.js should always be informed beforehand to use the resources of a particular domain. Create a `next.config.js` to create an array for the permitted domains to use resources.
 
@@ -33,6 +33,7 @@
 
 - for the global styles in the application, add the style to the directive `base` with **@layer & @apply** method.
 - install [heroicons package](https://github.com/tailwindlabs/heroicons) to use the icons & svg element.
+- The navbar contains the genres (categories) pulled from the REST API Tmdb.org. A util/requests.js to carry all functions to meet the requirements to make requests from the back-end api.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
