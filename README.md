@@ -7,8 +7,9 @@
 ## Stock
 
 [logo](https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png?fit=1280%2C680)
+[logo-alt](https://links.papareact.com/ua6)
 
-## Setup Tailwind for the project.
+### Setup Tailwind for the project.
 
 > A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 
@@ -23,6 +24,8 @@
   - `npx tailwindcss init -p`
 
 - Create a CSS file if you don't already have one, and use the @tailwind directive to inject tailwind's base, components, and utilities styles.
+
+###
 
 - While adding images from other domains to the application, the next.js should always be informed beforehand to use the resources of a particular domain. Create a `next.config.js` to create an array for the permitted domains to use resources.
 
