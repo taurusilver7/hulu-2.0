@@ -33,7 +33,12 @@
 
 - for the global styles in the application, add the style to the directive `base` with **@layer & @apply** method.
 - install [heroicons package](https://github.com/tailwindlabs/heroicons) to use the icons & svg element.
+
 - The navbar contains the genres (categories) pulled from the REST API Tmdb.org. A util/requests.js to carry all functions to meet the requirements to make requests from the back-end api.
+  - create a env local file to hold all the confidential keys to the api on the local machine.
+  - These local env variables are pushed to github.
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
