@@ -37,8 +37,7 @@
 - The navbar contains the genres (categories) pulled from the REST API Tmdb.org. A util/requests.js to carry all functions to meet the requirements to make requests from the back-end api.
   - create a env local file to hold all the confidential keys to the api on the local machine.
   - These local env variables are pushed to github.
-
-
+- requests.js holds all the api request url made to the api.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
