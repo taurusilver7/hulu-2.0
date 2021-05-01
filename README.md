@@ -39,6 +39,11 @@
   - These local env variables are pushed to github.
 - requests.js holds all the api request url made to the api.
 
+- Hide the scrollbar from the ui using a tailwind plugin package `tailwind-scrollbar-hide` and add it to the nav class(parent element class)
+- To add a fade tranparent effect on the last genre (of the list), add a self-closing div(className='relative') in the nav element (class='absolute') and add a background-gradient-to-left. To make it transparent, the [to] is left empty [to-colorCode].
+  - `<div className="absolute top-0 r-0 bg-gradient-to-l from-[#06020A] h-10 w-1/12" />`
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
