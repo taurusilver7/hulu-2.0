@@ -23,3 +23,9 @@ export default function Home() {
   );
 }
 
+// serverside rendering first, client side render next
+export async function getServerSideProps(context) {
+  const genre = context.query.genre;
+
+  // req to the database.
+}
