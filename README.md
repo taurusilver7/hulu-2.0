@@ -45,7 +45,11 @@
   - `<div className="absolute top-0 r-0 bg-gradient-to-l from-[#06020A] h-10 w-1/12" />`
 
 - Add a onClick function on the nav elements to create a query parameter in the main url.
+
   - `/?genre=${key}`
+
+- create a serverside render function to get the server side rendered data first, before the client side data.
+- get the api key from the tmdb.org & load the env var to the next js. restart the server
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
