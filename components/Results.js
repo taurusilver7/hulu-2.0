@@ -1,9 +1,13 @@
-const Results = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+import Thumbnail from "./Thumbnail";
 
-export default Results
+const Results = ({ results }) => {
+  return (
+    <div>
+      {results.map((result) => (
+        <Thumbnail key={result.id} result={result} />
+      ))}
+    </div>
+  );
+};
+
+export default Results;
