@@ -51,7 +51,7 @@
 - create a serverside render function to get the server side rendered data first, before the client side data.
 - get the api key from the tmdb.org & load the env var to the next js. restart the server.
 
-- create a get request from the api, get the results & pass it as props to the client-side. The client side renders the pros (destructers it to results) to Results component.
+- create a get request from the api using getServersideProps function, get the results & pass it as props to the client-side. The client side renders the pros (destructers it to results) to Results component.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
