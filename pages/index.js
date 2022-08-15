@@ -29,7 +29,7 @@ export async function getServerSideProps(context) {
   const genre = context.query.genre;
 
   // req to the database.
-  const request = await fetch(
+  const response = await fetch(
     `https://api.themoviedb.org/3${
       requests[genre]?.url || requests.fetchTrending.url
     }`
@@ -37,7 +37,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: {
-      results: request.results,
+      results: response.results,
     },
   };
 }
